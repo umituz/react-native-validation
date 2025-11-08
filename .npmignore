@@ -1,7 +1,7 @@
-# Build output (not needed, we publish src/)
-lib/
-dist/
-*.tsbuildinfo
+# Source files (only include compiled lib/)
+src/
+*.ts
+!*.d.ts
 
 # Development files
 .git/
@@ -42,3 +42,4 @@ __mocks__/
 *.temp
 .cache/
 node_modules/
+
